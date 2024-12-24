@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--main);
+}
+#root {
+  margin: 0;
+  padding: 1rem;
+  background-color: var(--neutral-gray-100);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+:root {
+  --header-bg: #ffffff;
+  --header-border: #e0e0e0;
+  --hover-bg: #f5f5f5;
+  --icon-color: #333333;
+  --text-color: #333333;
+}
+
+[data-theme="dark"] {
+  --header-bg: #1e1e1e;
+  --header-border: #333333;
+  --hover-bg: #2e2e2e;
+  --icon-color: #ffffff;
+  --text-color: #ffffff;
+}
+
